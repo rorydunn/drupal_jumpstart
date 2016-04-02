@@ -1,0 +1,9 @@
+#!/bin/bash
+# Run once after utilizing the make file.
+# Creates folders in sites/all/modules for custom and features modules.
+
+#Creates folder for custom modules
+mkdir -p ../../docroot/sites/all/modules/custom
+
+#Creates folder for feature modules
+mkdir -p ../../docroot/sites/all/modules/features
