@@ -1,0 +1,17 @@
+#!/bin/bash
+# Drupal site deployment script
+# Run when deploying code to a server for the first time and 
+# everytime code on the server is updated.
+
+#aliases defines each drush alias the commands should be run on. 
+#alias.one and alias.two would be replaced with actual drush aliases.
+aliases=(alias.one alias.two)
+
+for alias in "${aliases[@]}"
+do
+ drush @$alias rr
+ drush @$alias updb -y
+ drush @$alias fra -y
+ drush @$alias cc all
+done
+
