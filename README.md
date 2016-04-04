@@ -6,6 +6,6 @@ Instructions for use.
 
 $ git clone https://github.com/rorydunn/drupal_jumpstart.git
 
-$ cd docroot
+$ cd drupal_jumpstart/docroot
 
 $ drush make jumpstart.make .
