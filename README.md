@@ -8,4 +8,4 @@ $ git clone https://github.com/rorydunn/drupal_jumpstart.git
 
 $ cd docroot
 
-$ drush make 
+$ drush make jumpstart.make .
