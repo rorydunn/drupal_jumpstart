@@ -1,37 +1,21 @@
-Modules extend your site functionality beyond Drupal core.
 
-WHAT TO PLACE IN THIS DIRECTORY?
---------------------------------
-
-Placing downloaded and custom modules in this directory separates downloaded and
-custom modules from Drupal core's modules. This allows Drupal core to be updated
-without overwriting these files.
-
-DOWNLOAD ADDITIONAL MODULES
----------------------------
-
-Contributed modules from the Drupal community may be downloaded at
-https://www.drupal.org/project/project_module.
-
-ORGANIZING MODULES IN THIS DIRECTORY
+WHAT IS CURRENTLY IN THIS DIRECTORY?
 ------------------------------------
 
-You may create subdirectories in this directory, to organize your added modules,
-without breaking the site. Some common subdirectories include "contrib" for
-contributed modules, and "custom" for custom modules. Note that if you move a
-module to a subdirectory after it has been enabled, you may need to clear the
-Drupal cache so it can be found. (Alternatively, you can disable the module
-before moving it and then re-enable it after the move.)
+There is nothing currently in this directory.
 
-MULTISITE CONFIGURATION
------------------------
+WHAT TO PLACE IN THIS DIRECTORY?
+---------------------------------
 
-In multisite configurations, modules found in this directory are available to
-all sites. Alternatively, the sites/your_site_name/modules directory pattern
-may be used to restrict modules to a specific site instance.
+Place patches you generate in this directory.
 
-MORE INFORMATION
-----------------
+HOW DO I CREATE A PATCH?
+------------------------
 
-Refer to the "Developing for Drupal" section of the README.txt in the Drupal
-root directory for further information on extending Drupal with custom modules.
+Using Git.
+
+1. Edit the contributed module or theme file so that it works how you want.
+
+2.  In the terminal: $git diff path/to/file/form/where/you/are > patches/[module-name]-[issue-description].patch
+
+3. Open the patch and change change /docroot/sites/all/modules/contrib/[module-name]/file.xyz to just file.xyz)
