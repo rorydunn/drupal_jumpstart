@@ -4,12 +4,23 @@ defaults[projects][subdir] = "contrib"
 
 ;Drupal Core Version
 core = 7.x
-projects[drupal][version] = 7.43
+projects[drupal][version] = 7.x
 
-;contributed themes
+;Custom Themes
+projects[himsstheme][download][type] = "git"
+projects[himsstheme][download][url] = "git@github.com:HIMSS/himss_theme.git"
+
+;Custom Profile
+projects[himssprofile][download][type] = "git"
+projects[himssprofile][download][url] = "git@github.com:HIMSS/himss_profile.git"
+
+;Contributed Themes
 projects[bootstrap][subdir] = ""
 projects[bootstrap][type] = "theme"
 projects[bootstrap][version] = "3.x-dev"
+
+;Custom Modules
+;projects[{{module_name}}][destination] = "modules/custom"
 
 ;Contributed Modules
 projects[addanother][version] = "2.2"
