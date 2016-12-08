@@ -14,6 +14,7 @@ projects[himsstheme][download][url] = "git@github.com:HIMSS/himss_theme.git"
 
 ;Custom Profile
 projects[himssprofile][type] = "profile"
+projects[himssprofile][subdir] = ""
 projects[himssprofile][download][type] = "git"
 projects[himssprofile][download][url] = "git@github.com:HIMSS/himss_profile.git"
 ;projects[himssprofile][destination] = "profiles"
