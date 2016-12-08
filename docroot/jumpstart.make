@@ -7,12 +7,16 @@ core = 7.x
 projects[drupal][version] = 7.x
 
 ;Custom Themes
+projects[himsstheme][type] = "theme"
 projects[himsstheme][download][type] = "git"
 projects[himsstheme][download][url] = "git@github.com:HIMSS/himss_theme.git"
+;projects[himsstheme][destination] = "themes"
 
 ;Custom Profile
+projects[himssprofile][type] = "profile"
 projects[himssprofile][download][type] = "git"
 projects[himssprofile][download][url] = "git@github.com:HIMSS/himss_profile.git"
+;projects[himssprofile][destination] = "profiles"
 
 ;Contributed Themes
 projects[bootstrap][subdir] = ""
