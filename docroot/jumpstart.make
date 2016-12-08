@@ -4,7 +4,7 @@ defaults[projects][subdir] = "contrib"
 
 ;Drupal Core Version
 core = 7.x
-projects[drupal][version] = 7.53
+projects[drupal][version] = 7.52
 
 ;Custom Profile
 projects[himssprofile][type] = "profile"
