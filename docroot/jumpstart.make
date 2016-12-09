@@ -34,6 +34,12 @@ projects[himsstheme][download][url] = "git@github.com:HIMSS/himss_theme.git"
 projects[bootstrap][subdir] = ""
 projects[bootstrap][type] = "theme"
 projects[bootstrap][version] = "3.x-dev"
+projects[rubik][subdir] = ""
+projects[rubik][type] = "theme"
+projects[rubik][version] = "4.4"
+projects[tao][subdir] = ""
+projects[tao][type] = "theme"
+projects[tao][version] = "4.4"
 
 ;Contributed Modules
 ;projects[addanother][version] = "2.2"
